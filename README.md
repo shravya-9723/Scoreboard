@@ -7,7 +7,11 @@
 A simple **basketball scoreboard** built with **HTML, CSS, and JavaScript**.
 Tracks scores for *Home* and *Away* teams with +1, +2, and +3 buttons.
 
+
+view the link here 👉 [link](https://scoreboard-rouge-six.vercel.app/)
+
 ---
+
 
 ## 🌟 Features
 
