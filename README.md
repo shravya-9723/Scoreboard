@@ -1,8 +1,5 @@
 # Scoreboard
-Perfect 🔥 — here’s your **short, clean, GitHub-ready README.md** for your *Basketball Scoreboard* project.
-It keeps only what matters — crisp, professional, and polished.
 
----
 
 ```markdown
 # 🏀 Basketball Scoreboard
