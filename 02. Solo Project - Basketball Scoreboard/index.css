@@ -1,0 +1,86 @@
+/* Import local digital font */
+@font-face {
+  font-family: 'Digital-7';
+  src: url('fonts/digital-7.ttf') format('truetype');
+}
+
+/* Page setup */
+body {
+  margin: 0;
+  background-color: #f1faee;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Scoreboard container */
+.board {
+  width: 700px;
+  height: 400px;
+  background-color: #1d3557;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+/* Each side (HOME / GUEST) */
+.panel {
+  text-align: center;
+}
+
+/* Headings */
+.panel h3 {
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  margin-top: auto;
+}
+
+/* Score display */
+.score {
+  background-color: #000;
+  color: #ff3b3b;
+  font-family: 'Digital-7', monospace;
+  font-size: 100px;
+  width: 160px;
+  height: 120px;
+  margin: 0 auto 15px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  text-shadow: 0 0 20px #ff3b3b;
+}
+
+/* Button section */
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Buttons */
+button {
+  background: none;
+  border: 2px solid white;
+  color: white;
+  padding: 6px 14px;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: white;
+  color: #1d3557;
+}
+
+
